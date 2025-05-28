@@ -1,0 +1,19 @@
+.head-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fffbed;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
