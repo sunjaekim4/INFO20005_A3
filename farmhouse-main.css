@@ -17,7 +17,7 @@ body {
 
 .nav-links, .dropdown li {
     list-style: none;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
 }
 
 .nav-links {
@@ -28,7 +28,15 @@ body {
     border-radius: 1rem;
 }
 
-.nav-link:hover .dropdown {
+.nav-link {
+    padding: 0.5rem;
+}
+
+.nav-link + .nav-link {
+    padding-left: 2rem;
+}
+
+.nav-link:hover .dropdown, .dropdown:hover .dropdown {
     background-color: black;
     display: block;
 }
