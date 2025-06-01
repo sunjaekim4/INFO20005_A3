@@ -30,6 +30,7 @@ body {
 
 .nav-link {
     padding: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-link + .nav-link {
