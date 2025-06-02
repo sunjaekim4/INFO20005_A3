@@ -3,15 +3,15 @@ class Header extends HTMLElement {
     this.innerHTML = `
         <header>
             <nav class="head-navbar">
-                <img class="header-logo" src="logo.png" alt="Farmhouse Logo">
-                <ul class="nav-links">
-                    <li class="nav-link">
+                <a href="farmhousemain.html"><img class="header-logo" src="logo.png" alt="Farmhouse Logo"></a>
+                <ul class="head-nav-links">
+                    <li class="head-nav-link">
                         <a href="farmhousemain.html">Home</a>
                     </li>
             
-                    <li class="nav-link shop">
+                    <li class="head-nav-link shop">
                         <h2>Shop</h2>
-                        <ul class="dropdown">
+                        <ul class="head-dropdown">
                             <li><a href="shop/shop-all.html">Shop All</a></li>
                             <li><a href="shop/dog-treats.html">Dog Treats</a></li>
                             <li><a href="shop/cat-treats.html">Cat Treats</a></li>
@@ -20,9 +20,9 @@ class Header extends HTMLElement {
                         </ul>
                     </li>
 
-                    <li class="nav-link about-us">
+                    <li class="head-nav-link about-us">
                         <h2>About Us</h2>
-                        <ul class="dropdown">
+                        <ul class="head-dropdown">
                             <li><a href="about-us/our-story.html">Our Story</a></li>
                             <li><a href="about-us/our-mission.html">Our Mission</a></li>
                             <li><a href="about-us/our-ethics.html">Our Ethics</a></li>
@@ -32,9 +32,9 @@ class Header extends HTMLElement {
 
                 </ul>
 
-                <ul class="icon-links">
-                    <li><img src="cart-icon.png" alt="Cart Icon"></li>
-                    <li><img src="search-icon.png" alt="Search Icon"></li>
+                <ul class="head-icon-links">
+                    <li><a href="cart.html"><img src="cart-icon.png" alt="Cart Icon"></a></li>
+                    <li><a href="search.html"><img src="search-icon.png" alt="Search Icon"></a></li>
                 </ul>
             </nav>
         </header>
