@@ -3,31 +3,46 @@ class Header extends HTMLElement {
     this.innerHTML = `
         <header>
             <nav class="head-navbar">
-                <a href="farmhousemain.html"><img class="header-logo" src="logo.png" alt="Farmhouse Logo"></a>
+                <a href="farmhouse-main.html"><img class="header-logo" src="logo.png" alt="Farmhouse Logo"></a>
                 <ul class="head-nav-links">
-                    <li class="head-nav-link">
-                        <a href="farmhousemain.html">Home</a>
+                    <li class="head-nav-link home">
+                        <a href="farmhouse-main.html">Home</a>
                     </li>
             
                     <li class="head-nav-link shop">
-                        <button class="head-button">Shop</button>
-                        <ul class="head-dropdown">
-                            <li><a href="shop/shop-all.html">Shop All</a></li>
-                            <li><a href="shop/dog-treats.html">Dog Treats</a></li>
-                            <li><a href="shop/cat-treats.html">Cat Treats</a></li>
-                            <li><a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
-                            <li><a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
-                        </ul>
+                        
+                        <input type="checkbox" id="shop-dropdown-active">
+                        <label for="shop-dropdown-active" class="open-shop">
+                            <span class="head-checkbox">Shop</span>
+                        </label>
+
+
+                        <div class="head-dropdown">
+                            <label for="shop-dropdown-active" class="close-shop"></label>
+
+                            <a href="shop/shop-all.html">Shop All</a>
+                            <a href="shop/dog-treats.html">Dog Treats</a>
+                            <a href="shop/cat-treats.html">Cat Treats</a>
+                            <a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a>
+                            <a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
+                        </div>
                     </li>
 
                     <li class="head-nav-link about-us">
-                        <button class="head-button">About Us</button>
-                        <ul class="head-dropdown">
-                            <li><a href="about-us/our-story.html">Our Story</a></li>
-                            <li><a href="about-us/our-mission.html">Our Mission</a></li>
-                            <li><a href="about-us/our-ethics.html">Our Ethics</a></li>
-                            <li><a href="about-us/community.html">Community</a></li>
-                        </ul>
+
+                        <input type="checkbox" id="abt-dropdown-active">
+                        <label for="abt-dropdown-active" class="open-abt">
+                            <span class="head-checkbox">About Us</span>
+                        </label>
+
+                        <div class="head-dropdown">
+                            <label for="abt-dropdown-active" class="close-abt"></label>
+
+                            <a href="about-us/our-story.html">Our Story</a>
+                            <a href="about-us/our-mission.html">Our Mission</a>
+                            <a href="about-us/our-ethics.html">Our Ethics</a>
+                            <a href="about-us/community.html">Community</a>
+                        </div>
                     </li>
 
                 </ul>
@@ -36,6 +51,7 @@ class Header extends HTMLElement {
                     <li><a href="cart.html"><img src="cart-icon.png" alt="Cart Icon"></a></li>
                     <li><a href="search.html"><img src="search-icon.png" alt="Search Icon"></a></li>
                 </ul>
+
             </nav>
         </header>
     `
@@ -43,6 +59,14 @@ class Header extends HTMLElement {
 }
 
 customElements.define('header-component', Header);
+
+let boxes = document.querySelectorAll("input[type=checkbox]");
+boxes.forEach(b => b.addEventListener("change", tick));
+function tick(e) {
+  let state = e.target.checked; // save state of changed checkbox
+  boxes.forEach(b => b.checked = false); // clear all checkboxes
+  e.target.checked = state; // restore state of changed checkbox
+}
 
 class Footer extends HTMLElement {
     connectedCallback() {
