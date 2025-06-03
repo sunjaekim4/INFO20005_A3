@@ -24,8 +24,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.head-button {
+    background-color: #e5d5b5;
+    border: none;
+    font-size: 16px;
+}
+
 .head-nav-link + .head-nav-link {
     padding-left: 2rem;
+}
+
+.head-icon-links {
+    display: flex;
 }
 
 @media only screen and (min-width: 768px) {
@@ -43,9 +53,22 @@
     }
 }
 
+.foot-links, .foot-nav-links {
+    list-style: none;
+    padding-left: 0;
+}
 
 @media only screen and (min-width: 768px) {
   .foot-nav-links {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
   }
+}
+
+@media only screen and (max-width: 600px) {
+    .foot-nav-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
 }

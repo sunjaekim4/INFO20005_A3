@@ -10,7 +10,7 @@ class Header extends HTMLElement {
                     </li>
             
                     <li class="head-nav-link shop">
-                        <h2>Shop</h2>
+                        <button class="head-button">Shop</button>
                         <ul class="head-dropdown">
                             <li><a href="shop/shop-all.html">Shop All</a></li>
                             <li><a href="shop/dog-treats.html">Dog Treats</a></li>
@@ -21,7 +21,7 @@ class Header extends HTMLElement {
                     </li>
 
                     <li class="head-nav-link about-us">
-                        <h2>About Us</h2>
+                        <button class="head-button">About Us</button>
                         <ul class="head-dropdown">
                             <li><a href="about-us/our-story.html">Our Story</a></li>
                             <li><a href="about-us/our-mission.html">Our Mission</a></li>
