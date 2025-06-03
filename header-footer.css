@@ -53,7 +53,7 @@
     }
 }
 
-.foot-links, .foot-nav-links {
+.foot-links {
     list-style: none;
     padding-left: 0;
 }
@@ -70,5 +70,6 @@
     .foot-nav-links {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
         }
 }
