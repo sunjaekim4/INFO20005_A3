@@ -12,14 +12,12 @@ class Header extends HTMLElement {
                     <li class="head-nav-link shop">
                         
                         <input type="checkbox" id="shop-dropdown-active">
-                        <label for="shop-dropdown-active" class="open-shop">
+                        <label for="shop-dropdown-active">
                             <span class="head-checkbox">Shop</span>
                         </label>
 
 
-                        <div class="head-dropdown">
-                            <label for="shop-dropdown-active" class="close-shop"></label>
-
+                        <div class="head-dropdown shop">
                             <a href="shop/shop-all.html">Shop All</a>
                             <a href="shop/dog-treats.html">Dog Treats</a>
                             <a href="shop/cat-treats.html">Cat Treats</a>
@@ -31,13 +29,11 @@ class Header extends HTMLElement {
                     <li class="head-nav-link about-us">
 
                         <input type="checkbox" id="abt-dropdown-active">
-                        <label for="abt-dropdown-active" class="open-abt">
+                        <label for="abt-dropdown-active">
                             <span class="head-checkbox">About Us</span>
                         </label>
 
-                        <div class="head-dropdown">
-                            <label for="abt-dropdown-active" class="close-abt"></label>
-
+                        <div class="head-dropdown about-us">
                             <a href="about-us/our-story.html">Our Story</a>
                             <a href="about-us/our-mission.html">Our Mission</a>
                             <a href="about-us/our-ethics.html">Our Ethics</a>
@@ -67,6 +63,7 @@ function tick(e) {
   boxes.forEach(b => b.checked = false); // clear all checkboxes
   e.target.checked = state; // restore state of changed checkbox
 }
+
 
 class Footer extends HTMLElement {
     connectedCallback() {

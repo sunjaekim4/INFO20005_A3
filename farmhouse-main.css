@@ -11,3 +11,8 @@ body {
     margin: 0;
     background-color: #FFF6E5;
 }
+
+.home a {
+    color: white;
+    background-color: black;
+}
