@@ -18,11 +18,11 @@ class Header extends HTMLElement {
 
 
                         <div class="head-dropdown shop">
-                            <a href="shop/shop-all.html">Shop All</a>
-                            <a href="shop/dog-treats.html">Dog Treats</a>
-                            <a href="shop/cat-treats.html">Cat Treats</a>
-                            <a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a>
-                            <a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/shop-all.html">Shop All</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/dog-treats.html">Dog Treats</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/cat-treats.html">Cat Treats</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/horses-herbivores.html">Horse & Herbivore Treats</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
                         </div>
                     </li>
 
@@ -34,18 +34,17 @@ class Header extends HTMLElement {
                         </label>
 
                         <div class="head-dropdown about-us">
-                            <a href="about-us/our-story.html">Our Story</a>
-                            <a href="about-us/our-mission.html">Our Mission</a>
-                            <a href="about-us/our-ethics.html">Our Ethics</a>
-                            <a href="about-us/community.html">Community</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-mission.html">Our Mission</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a>
                         </div>
                     </li>
 
                 </ul>
 
                 <ul class="head-icon-links">
-                    <li><a href="cart.html"><img src="cart-icon.png" alt="Cart Icon"></a></li>
-                    <li><a href="search.html"><img src="search-icon.png" alt="Search Icon"></a></li>
+                    <li><a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html"><img src="cart-icon.png" alt="Cart Icon"></a></li>
                 </ul>
 
             </nav>
@@ -73,38 +72,37 @@ class Footer extends HTMLElement {
                 <li>
                     <h2 class="foot-heading">Shop</h2>
                     <ul class="foot-links">
-                        <li><a href="shop/shop-all.html">Shop All</a></li>
-                        <li><a href="shop/dog-treats.html">Dog Treats</a></li>
-                        <li><a href="shop/cat-treats.html">Cat Treats</a></li>
-                        <li><a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
-                        <li><a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/shop-all.html">Shop All</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/dog-treats.html">Dog Treats</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/cat-treats.html">Cat Treats</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">About Us</h2>
                     <ul class="foot-links">
-                        <li><a href="about-us/our-story.html">Our Story</a></li>
-                        <li><a href="about-us/our-mission.html">Our Mission</a></li>
-                        <li><a href="about-us/our-ethics.html">Our Ethics</a></li>
-                        <li><a href="about-us/community.html">Community</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-mission.html">Our Mission</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">Helpful Links</h2>
                     <ul class="foot-links">
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                        <li><a href="shipping-returns.html">Shipping & Returns</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/contact-us.html">Contact Us</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shipping-returns.html">Shipping & Returns</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/terms-conditions.html">Terms & Conditions</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">Socials</h2>
                     <ul class="foot-links">
-                        <li><a href="https://www.facebook.com/farmhousepetproducts">Newsletter</a></li>
                         <li><a href="https://www.facebook.com/farmhousepetproducts">Facebook</a></li>
                         <li><a href="https://www.instagram.com/farmhousepetproducts">Instagram</a></li>
                         <li><a href="https://www.tiktok.com/@farmhousepetproducts">TikTok</a></li>
