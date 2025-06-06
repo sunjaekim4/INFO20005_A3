@@ -47,8 +47,8 @@ class Header extends HTMLElement {
 
                 </ul>
 
-                <a href="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png">
-                    <img src="cart-icon.png" alt="Cart Icon">
+                <a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html">
+                    <img src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" alt="Cart Icon">
                 </a>
 
             </nav>
