@@ -1,15 +1,9 @@
 a {
     text-decoration: none;
-    color: black;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-body {
-    margin: 0;
-    background-color: #FFF6E5;
 }
 
 .home a {
