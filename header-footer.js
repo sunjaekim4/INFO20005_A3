@@ -7,10 +7,6 @@ class Header extends HTMLElement {
                     <img class="header-logo-full" src="https://sunjaekim4.github.io/INFO20005_A3/images/farmhouse-full-logo.png" 
                         alt="Farmhouse Logo">
                 </a>
-                <a href="https://sunjaekim4.github.io/INFO20005_A3/">
-                    <img class="header-logo-icon" src="https://sunjaekim4.github.io/INFO20005_A3/images/paw-icon-logo-black.png"
-                        alt="Farmhouse Logo">
-                </a>
 
                 <ul class="head-nav-links">
                     <li class="head-nav-link home">
