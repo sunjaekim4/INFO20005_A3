@@ -49,7 +49,8 @@ class Header extends HTMLElement {
 
                 <div class="cart-icon">
                     <a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html">
-                        <img src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" alt="Cart Icon">
+                        <img class="cart-icon-img"
+                        src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" alt="Cart Icon">
                         <div class="total-items">0</div>
                     </a>
                 </div>

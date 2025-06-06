@@ -1,3 +1,15 @@
+:root {
+    --light-background: #FFF6E5;
+    --mid-background: #e5d5b5;
+    --dark-contrast: black;
+    --light-contrast: white;
+    --text-color: black;
+    --emphasis-color: #0CC0DE;
+
+    --body-text: 14px;
+
+}
+
 .header-logo-icon {
     display: none;
   }

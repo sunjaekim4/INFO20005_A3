@@ -10,7 +10,11 @@
 
 }
 
-header-component {
+body {
+    margin: 0;
+}
+
+main {
     background-color: var(--light-background);
 }
 
