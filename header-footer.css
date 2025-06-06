@@ -1,3 +1,7 @@
+.header-logo-icon {
+    display: none;
+  }
+
 header a:hover, footer a:hover {
   text-decoration: none;
 }
@@ -88,6 +92,13 @@ header a:hover, footer a:hover {
   .head-dropdown {
     max-width: 100%;
 
+  }
+
+  .header-logo-icon {
+    display: inline;
+  }
+  .header-logo-full {
+    display: none;
   }
 }
 
