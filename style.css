@@ -5,9 +5,12 @@
     --light-contrast: white;
     --text-color: black;
     --emphasis-color: #0CC0DE;
+
+    --body-text: 14px;
+
 }
 
-* {
+body {
     background-color: var(--light-background);
 }
 
