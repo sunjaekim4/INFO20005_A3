@@ -51,9 +51,9 @@ class Header extends HTMLElement {
 
                 </ul>
 
-                <ul class="head-icon-links">
-                    <li><a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html"><img src="cart-icon.png" alt="Cart Icon"></a></li>
-                </ul>
+                <a href="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png">
+                    <img src="cart-icon.png" alt="Cart Icon">
+                </a>
 
             </nav>
         </header>
