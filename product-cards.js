@@ -134,23 +134,6 @@ class ChickenFeet extends HTMLElement {
 customElements.define('chicken-feet', ChickenFeet);
 
 
-class ChickenFeet extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-            <div class="product-card">
-                <img src="https://sunjaekim4.github.io/INFO20005_A3/images/products-images/apple-oat-cookies.jpg" 
-                    alt="Chicken Feet">
-                <h2>Chicken Feet</h2>
-                <span class="price">$5.99</span>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-        `
-    }
-}
-
-customElements.define('chicken-feet', ChickenFeet);
-
-
 class LambCrumble extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -199,7 +182,7 @@ class PeanutButterCookies extends HTMLElement {
     }
 }
 
-customElements.define('sardines', PeanutButterCookies);
+customElements.define('peanut-butter-cookies', PeanutButterCookies);
 
 
 class VeggieCrunch extends HTMLElement {
