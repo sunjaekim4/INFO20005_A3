@@ -35,9 +35,9 @@ class Header extends HTMLElement {
 
                         <div class="head-dropdown about-us">
                             <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-mission.html">Our Mission</a>
                             <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a>
                             <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a>
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/where-to-buy.html">Where to Buy</a>
                         </div>
                     </li>
 
