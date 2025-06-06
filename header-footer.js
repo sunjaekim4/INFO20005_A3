@@ -84,9 +84,9 @@ class Footer extends HTMLElement {
                     <h2 class="foot-heading">About Us</h2>
                     <ul class="foot-links">
                         <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-mission.html">Our Mission</a></li>
                         <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a></li>
                         <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a></li>
+                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/where-to-buy.html">Where to Buy</a></li>
                     </ul>
                 </li>
 
