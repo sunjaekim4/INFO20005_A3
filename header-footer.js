@@ -2,62 +2,60 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <header>
-            <nav class="head-navbar">
                 <a href="https://sunjaekim4.github.io/INFO20005_A3/">
                     <img src="https://sunjaekim4.github.io/INFO20005_A3/images/farmhouse-full-logo.png" 
                         alt="Farmhouse Logo"
                         class="header-logo-full">
                 </a>
+                <nav>
+                    <ul class="head-nav-links">
+                        <li class="head-nav-link home">
+                            <a href="https://sunjaekim4.github.io/INFO20005_A3/index.html">Home</a>
+                        </li>
+                
+                        <li class="head-nav-link shop">
+                            
+                            <input type="checkbox" id="shop-dropdown-active">
+                            <label for="shop-dropdown-active">
+                                <span class="head-checkbox">Shop</span>
+                            </label>
 
-                <ul class="head-nav-links">
-                    <li class="head-nav-link home">
-                        <a href="https://sunjaekim4.github.io/INFO20005_A3/index.html">Home</a>
-                    </li>
-            
-                    <li class="head-nav-link shop">
-                        
-                        <input type="checkbox" id="shop-dropdown-active">
-                        <label for="shop-dropdown-active">
-                            <span class="head-checkbox">Shop</span>
-                        </label>
 
+                            <div class="head-dropdown shop">
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/shop-all.html">Shop All</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/dog-treats.html">Dog Treats</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/cat-treats.html">Cat Treats</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/horses-herbivores.html">Horse & Herbivore Treats</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
+                            </div>
+                        </li>
 
-                        <div class="head-dropdown shop">
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/shop-all.html">Shop All</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/dog-treats.html">Dog Treats</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/cat-treats.html">Cat Treats</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/horses-herbivores.html">Horse & Herbivore Treats</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
-                        </div>
-                    </li>
+                        <li class="head-nav-link about-us">
 
-                    <li class="head-nav-link about-us">
+                            <input type="checkbox" id="abt-dropdown-active">
+                            <label for="abt-dropdown-active">
+                                <span class="head-checkbox">About Us</span>
+                            </label>
 
-                        <input type="checkbox" id="abt-dropdown-active">
-                        <label for="abt-dropdown-active">
-                            <span class="head-checkbox">About Us</span>
-                        </label>
+                            <div class="head-dropdown about-us">
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a>
+                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/where-to-buy.html">Where to Buy</a>
+                            </div>
+                        </li>
 
-                        <div class="head-dropdown about-us">
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a>
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/where-to-buy.html">Where to Buy</a>
-                        </div>
-                    </li>
+                    </ul>
+                </nav>
 
-                </ul>
-
-                <div class="cart-icon">
+                <span class="cart-icon">
                     <a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html">
                         <img src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" 
                         alt="Cart Icon"
                         class="cart-icon-img">
                         <div class="total-items">0</div>
                     </a>
-                </div>
-
-            </nav>
+                </span>
         </header>
     `
   }

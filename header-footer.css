@@ -8,8 +8,11 @@
 
 }
 
-nav {
+header {
   background-color: var(--light-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo-icon {
@@ -24,14 +27,13 @@ header a:hover, footer a:hover {
   cursor: pointer;
 }
 
-.head-navbar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 0.5rem 1rem;
-}
 
-.header-logo-full {
-  height: 50px;
+.head-nav-links {
+  display: inline-block;
+  /* justify-content: space-between;
+  align-items: center; */
+  background-color: var(--mid-background);
+  border-radius: 1rem;
 }
 
 .head-nav-links,
@@ -40,15 +42,6 @@ header a:hover, footer a:hover {
 .foot-nav-links li {
   list-style: none;
   padding: 0 1rem;
-}
-
-.head-nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--mid-background);
-  padding: 1rem 0.6rem;
-  border-radius: 1rem;
 }
 
 .head-nav-link {
@@ -63,10 +56,6 @@ header a:hover, footer a:hover {
     white-space: nowrap;
     padding: 0.6rem 1rem;
     border-radius: 0.5rem;
-}
-
-.head-icon-links {
-  display: flex;
 }
 
 .head-dropdown {
@@ -104,9 +93,6 @@ header a:hover, footer a:hover {
   max-height: max-content;
 }
 
-.header-logo-full, .cart-icon-img {
-  max-height: 50px;
-}
 
 @media only screen and (max-width: 768px) {
   .head-dropdown {
