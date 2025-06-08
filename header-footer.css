@@ -15,7 +15,7 @@ header {
   align-items: center;
 }
 
-img.header-logo-full {
+img.header-logo-full, img.cart-icon-img {
   height: 70px;
 }
 
@@ -32,6 +32,7 @@ header a:hover, footer a:hover {
   justify-content: space-between;
   background-color: var(--mid-background);
   border-radius: 1rem;
+  padding: 0.6rem 0.5rem;
 }
 
 .head-nav-links,

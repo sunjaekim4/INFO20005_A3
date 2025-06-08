@@ -2,15 +2,15 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <header>
-                <a href="https://sunjaekim4.github.io/INFO20005_A3/">
-                    <img src="https://sunjaekim4.github.io/INFO20005_A3/images/farmhouse-full-logo.png" 
+                <a href="index.html">
+                    <img src="images/farmhouse-full-logo.png" 
                         alt="Farmhouse Logo"
                         class="header-logo-full">
                 </a>
                 <nav>
                     <ul class="head-nav-links">
                         <li class="head-nav-link home">
-                            <a href="https://sunjaekim4.github.io/INFO20005_A3/index.html">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                 
                         <li class="head-nav-link shop">
@@ -22,11 +22,11 @@ class Header extends HTMLElement {
 
 
                             <div class="head-dropdown shop">
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/shop-all.html">Shop All</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/dog-treats.html">Dog Treats</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/cat-treats.html">Cat Treats</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/horses-herbivores.html">Horse & Herbivore Treats</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
+                                <a href="shop/shop-all.html">Shop All</a>
+                                <a href="shop/dog-treats.html">Dog Treats</a>
+                                <a href="shop/cat-treats.html">Cat Treats</a>
+                                <a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a>
+                                <a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
                             </div>
                         </li>
 
@@ -38,10 +38,10 @@ class Header extends HTMLElement {
                             </label>
 
                             <div class="head-dropdown about-us">
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a>
-                                <a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/where-to-buy.html">Where to Buy</a>
+                                <a href="about-us/our-story.html">Our Story</a>
+                                <a href="about-us/our-ethics.html">Our Ethics</a>
+                                <a href="about-us/community.html">Community</a>
+                                <a href="about-us/where-to-buy.html">Where to Buy</a>
                             </div>
                         </li>
 
@@ -49,8 +49,8 @@ class Header extends HTMLElement {
                 </nav>
 
                 <span class="cart-icon">
-                    <a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html">
-                        <img src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" 
+                    <a href="cart.html">
+                        <img src="images/cart.png" 
                         alt="Cart Icon"
                         class="cart-icon-img">
                         <div class="total-items">0</div>
@@ -80,31 +80,31 @@ class Footer extends HTMLElement {
                 <li>
                     <h2 class="foot-heading">Shop</h2>
                     <ul class="foot-links">
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/shop-all.html">Shop All</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/dog-treats.html">Dog Treats</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/cat-treats.html">Cat Treats</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
+                        <li><a href="shop/shop-all.html">Shop All</a></li>
+                        <li><a href="shop/dog-treats.html">Dog Treats</a></li>
+                        <li><a href="shop/cat-treats.html">Cat Treats</a></li>
+                        <li><a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
+                        <li><a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">About Us</h2>
                     <ul class="foot-links">
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-story.html">Our Story</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/our-ethics.html">Our Ethics</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/community.html">Community</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/about-us/where-to-buy.html">Where to Buy</a></li>
+                        <li><a href="about-us/our-story.html">Our Story</a></li>
+                        <li><a href="about-us/our-ethics.html">Our Ethics</a></li>
+                        <li><a href="about-us/community.html">Community</a></li>
+                        <li><a href="about-us/where-to-buy.html">Where to Buy</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">Helpful Links</h2>
                     <ul class="foot-links">
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/contact-us.html">Contact Us</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/shipping-returns.html">Shipping & Returns</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="https://sunjaekim4.github.io/INFO20005_A3/terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
                     </ul>
                 </li>
 
