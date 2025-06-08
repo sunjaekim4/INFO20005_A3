@@ -15,9 +15,9 @@ header {
   align-items: center;
 }
 
-.header-logo-icon {
-    display: none;
-  }
+img.header-logo-full {
+  height: 70px;
+}
 
 header a:hover, footer a:hover {
   text-decoration: none;
@@ -27,11 +27,9 @@ header a:hover, footer a:hover {
   cursor: pointer;
 }
 
-
 .head-nav-links {
-  display: inline-block;
-  /* justify-content: space-between;
-  align-items: center; */
+  display: flex;
+  justify-content: space-between;
   background-color: var(--mid-background);
   border-radius: 1rem;
 }
