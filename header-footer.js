@@ -4,8 +4,9 @@ class Header extends HTMLElement {
         <header>
             <nav class="head-navbar">
                 <a href="https://sunjaekim4.github.io/INFO20005_A3/">
-                    <img class="header-logo-full" src="https://sunjaekim4.github.io/INFO20005_A3/images/farmhouse-full-logo.png" 
-                        alt="Farmhouse Logo">
+                    <img src="https://sunjaekim4.github.io/INFO20005_A3/images/farmhouse-full-logo.png" 
+                        alt="Farmhouse Logo"
+                        class="header-logo-full">
                 </a>
 
                 <ul class="head-nav-links">
@@ -49,8 +50,9 @@ class Header extends HTMLElement {
 
                 <div class="cart-icon">
                     <a href="https://sunjaekim4.github.io/INFO20005_A3/cart.html">
-                        <img class="cart-icon-img"
-                        src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" alt="Cart Icon">
+                        <img src="https://sunjaekim4.github.io/INFO20005_A3/images/cart.png" 
+                        alt="Cart Icon"
+                        class="cart-icon-img">
                         <div class="total-items">0</div>
                     </a>
                 </div>
