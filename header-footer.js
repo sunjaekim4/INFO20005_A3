@@ -4,6 +4,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     const base = window.location.pathname.includes('/shop/') || 
              window.location.pathname.includes('/about-us/') || 
+             window.location.pathname.includes('/products/') || 
              window.location.pathname.includes('/helpful-links/')
              ? '../' : './';
 

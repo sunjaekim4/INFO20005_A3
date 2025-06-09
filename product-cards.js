@@ -2,12 +2,12 @@ class AppleOatCookies extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div class="product-card">
-                <a href="">    
+                <a href="../products/apple-oat-cookies.html">    
                     <img src="../images/product-images/apple-and-oat-cookies.webp" 
                         alt="Apple Oat Cookies">
                 </a>
 
-                <a href=""><h2>Apple Oat Cookies</h2></a>
+                <a href="../products/apple-oat-cookies.html"><h2>Apple Oat Cookies</h2></a>
                 <span class="price">$5.99</span>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
