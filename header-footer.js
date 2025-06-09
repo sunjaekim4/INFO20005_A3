@@ -10,14 +10,20 @@ class Header extends HTMLElement {
                 <nav>
                     <ul class="head-nav-links">
                         <li class="head-nav-link home">
-                            <a href="index.html">Home</a>
+                            <a href="index.html">
+                                <img class="paw-icon" src="images/paw-icon-blue.png">
+                                Home
+                            </a>
                         </li>
                 
                         <li class="head-nav-link shop">
                             
                             <input type="checkbox" id="shop-dropdown-active">
                             <label for="shop-dropdown-active">
-                                <span class="head-checkbox">Shop</span>
+                                <span class="head-checkbox">
+                                    <img class="paw-icon" src="images/paw-icon-blue.png">
+                                    Shop
+                                </span>
                             </label>
 
 
@@ -34,7 +40,10 @@ class Header extends HTMLElement {
 
                             <input type="checkbox" id="abt-dropdown-active">
                             <label for="abt-dropdown-active">
-                                <span class="head-checkbox">About Us</span>
+                                <span class="head-checkbox">
+                                    <img class="paw-icon" src="images/paw-icon-blue.png">
+                                    About Us
+                                </span>
                             </label>
 
                             <div class="head-dropdown about-us">

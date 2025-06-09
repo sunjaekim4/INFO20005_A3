@@ -10,12 +10,14 @@
 
 }
 
+@font-face {
+    font-family: "Albert Sans";
+    src: url(fonts/Albert_Sans/AlbertSans-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
-}
-
-main {
     background-color: var(--light-background);
 }
 
