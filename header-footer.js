@@ -2,16 +2,16 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <header>
-                <a href="index.html" class="header-logo-link">
-                    <img src="images/farmhouse-full-logo.png" 
+                <a href="/index.html" class="header-logo-link">
+                    <img src="/images/farmhouse-full-logo.png" 
                         alt="Farmhouse Logo"
                         class="header-logo-img">
                 </a>
                 <nav>
                     <ul class="head-nav-links">
                         <li class="head-nav-link home">
-                            <a href="index.html">
-                                <img class="paw-icon" src="images/paw-icon-blue.png">
+                            <a href="/index.html">
+                                <img class="paw-icon" src="/images/paw-icon-blue.png">
                                 Home
                             </a>
                         </li>
@@ -21,18 +21,18 @@ class Header extends HTMLElement {
                             <input type="checkbox" id="shop-dropdown-active">
                             <label for="shop-dropdown-active">
                                 <span class="head-checkbox">
-                                    <img class="paw-icon" src="images/paw-icon-blue.png">
+                                    <img class="paw-icon" src="/images/paw-icon-blue.png">
                                     Shop
                                 </span>
                             </label>
 
 
                             <div class="head-dropdown shop">
-                                <a href="shop/shop-all.html">Shop All</a>
-                                <a href="shop/dog-treats.html">Dog Treats</a>
-                                <a href="shop/cat-treats.html">Cat Treats</a>
-                                <a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a>
-                                <a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
+                                <a href="/shop/shop-all.html">Shop All</a>
+                                <a href="/shop/dog-treats.html">Dog Treats</a>
+                                <a href="/shop/cat-treats.html">Cat Treats</a>
+                                <a href="/shop/horses-herbivores.html">Horse & Herbivore Treats</a>
+                                <a href="/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a>
                             </div>
                         </li>
 
@@ -41,24 +41,24 @@ class Header extends HTMLElement {
                             <input type="checkbox" id="abt-dropdown-active">
                             <label for="abt-dropdown-active">
                                 <span class="head-checkbox">
-                                    <img class="paw-icon" src="images/paw-icon-blue.png">
+                                    <img class="paw-icon" src="/images/paw-icon-blue.png">
                                     About Us
                                 </span>
                             </label>
 
                             <div class="head-dropdown about-us">
-                                <a href="about-us/our-story.html">Our Story</a>
-                                <a href="about-us/our-ethics.html">Our Ethics</a>
-                                <a href="about-us/community.html">Community</a>
-                                <a href="about-us/where-to-buy.html">Where to Buy</a>
+                                <a href="/about-us/our-story.html">Our Story</a>
+                                <a href="/about-us/our-ethics.html">Our Ethics</a>
+                                <a href="/about-us/community.html">Community</a>
+                                <a href="/about-us/where-to-buy.html">Where to Buy</a>
                             </div>
                         </li>
 
                     </ul>
                 </nav>
 
-                <a href="cart.html" class="cart-icon">
-                    <img src="images/cart.png" 
+                <a href="/cart.html" class="cart-icon">
+                    <img src="/images/cart.png" 
                         alt="Cart Icon"
                         class="cart-icon-img">
                 </a>
@@ -86,31 +86,31 @@ class Footer extends HTMLElement {
                 <li>
                     <h2 class="foot-heading">Shop</h2>
                     <ul class="foot-links">
-                        <li><a href="shop/shop-all.html">Shop All</a></li>
-                        <li><a href="shop/dog-treats.html">Dog Treats</a></li>
-                        <li><a href="shop/cat-treats.html">Cat Treats</a></li>
-                        <li><a href="shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
-                        <li><a href="shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
+                        <li><a href="/shop/shop-all.html">Shop All</a></li>
+                        <li><a href="/shop/dog-treats.html">Dog Treats</a></li>
+                        <li><a href="/shop/cat-treats.html">Cat Treats</a></li>
+                        <li><a href="/shop/horses-herbivores.html">Horse & Herbivore Treats</a></li>
+                        <li><a href="/shop/poultry-reptiles-natives.html">Poultry, Reptile & Natives Treats</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">About Us</h2>
                     <ul class="foot-links">
-                        <li><a href="about-us/our-story.html">Our Story</a></li>
-                        <li><a href="about-us/our-ethics.html">Our Ethics</a></li>
-                        <li><a href="about-us/community.html">Community</a></li>
-                        <li><a href="about-us/where-to-buy.html">Where to Buy</a></li>
+                        <li><a href="/about-us/our-story.html">Our Story</a></li>
+                        <li><a href="/about-us/our-ethics.html">Our Ethics</a></li>
+                        <li><a href="/about-us/community.html">Community</a></li>
+                        <li><a href="/about-us/where-to-buy.html">Where to Buy</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <h2 class="foot-heading">Helpful Links</h2>
                     <ul class="foot-links">
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                        <li><a href="shipping-returns.html">Shipping & Returns</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="/helpful-links/contact-us.html">Contact Us</a></li>
+                        <li><a href="/helpful-links/shipping-returns.html">Shipping & Returns</a></li>
+                        <li><a href="/helpful-links/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="/helpful-links/terms-conditions.html">Terms & Conditions</a></li>
                     </ul>
                 </li>
 

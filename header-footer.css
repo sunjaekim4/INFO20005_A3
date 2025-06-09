@@ -65,6 +65,7 @@ img.paw-icon {
   background-color: var(--light-contrast);
   padding: 1rem;
   border-radius: 0.8rem;
+  font-weight: 400;
 }
 
 .head-dropdown a {
@@ -106,12 +107,13 @@ img.paw-icon {
   }
 
   .header-logo-link {
-    grid-area: a;
+    grid-column: 1 / -1;
     justify-self: center;
   }
 
   img.header-logo-img {
     max-height: 50px;
+    justify-self: center;
   }
 }
 
