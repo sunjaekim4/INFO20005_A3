@@ -138,7 +138,7 @@ class LambCrumble extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div class="product-card">
-                <img src="images/products-images/apple-oat-cookies.jpg" 
+                <img src="images/products-images/lamb-crumble.jpg" 
                     alt="Lamb Crumble">
                 <h2>Lamb Crumble</h2>
                 <span class="price">$5.99</span>
