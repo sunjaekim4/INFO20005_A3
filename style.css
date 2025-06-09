@@ -47,9 +47,15 @@ a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 0 50px;
 }
 
 li {
     list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+    padding: 30px;
+}
 }
