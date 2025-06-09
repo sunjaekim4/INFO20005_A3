@@ -2,10 +2,10 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <header>
-                <a href="index.html">
+                <a href="index.html" class="header-logo-link">
                     <img src="images/farmhouse-full-logo.png" 
                         alt="Farmhouse Logo"
-                        class="header-logo-full">
+                        class="header-logo-img">
                 </a>
                 <nav>
                     <ul class="head-nav-links">
@@ -48,14 +48,11 @@ class Header extends HTMLElement {
                     </ul>
                 </nav>
 
-                <span class="cart-icon">
-                    <a href="cart.html">
-                        <img src="images/cart.png" 
+                <a href="cart.html" class="cart-icon">
+                    <img src="images/cart.png" 
                         alt="Cart Icon"
                         class="cart-icon-img">
-                        <div class="total-items">0</div>
-                    </a>
-                </span>
+                </a>
         </header>
     `
   }
