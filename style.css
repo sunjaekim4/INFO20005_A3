@@ -15,10 +15,26 @@
     src: url(fonts/Albert_Sans/AlbertSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "Albert Sans Italic";
+    src: url(fonts/Albert_Sans/AlbertSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
     background-color: var(--light-background);
+    font-family: "Albert Sans", Tahoma, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: "Josefin Sans";
+    font-weight: 500;
 }
 
 a {
