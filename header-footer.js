@@ -19,11 +19,9 @@ class Header extends HTMLElement {
                         <li class="head-nav-link shop">
                             
                             <input type="checkbox" id="shop-dropdown-active">
-                            <label for="shop-dropdown-active">
-                                <span class="head-checkbox">
-                                    <img class="paw-icon" src="/images/paw-icon-blue.png">
-                                    Shop
-                                </span>
+                            <label for="shop-dropdown-active" class="head-checkbox shop">
+                                <img class="paw-icon" src="/images/paw-icon-blue.png">
+                                <span>Shop</span>
                             </label>
 
 
@@ -39,11 +37,9 @@ class Header extends HTMLElement {
                         <li class="head-nav-link about-us">
 
                             <input type="checkbox" id="abt-dropdown-active">
-                            <label for="abt-dropdown-active">
-                                <span class="head-checkbox">
-                                    <img class="paw-icon" src="/images/paw-icon-blue.png">
-                                    About Us
-                                </span>
+                            <label for="abt-dropdown-active" class="head-checkbox about-us">
+                                <img class="paw-icon" src="/images/paw-icon-blue.png">
+                                <span>About Us</span>
                             </label>
 
                             <div class="head-dropdown about-us">

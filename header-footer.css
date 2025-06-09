@@ -2,16 +2,12 @@ header {
   background-color: var(--light-background);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 2% 5%;
+  padding: 5% 5%;
 }
 
 .header-logo-link {
   justify-self: start;
   align-self: center;
-}
-
-header > nav {
-  justify-self: center;
 }
 
 .cart-icon {
@@ -32,6 +28,7 @@ img.cart-icon-img {
 img.paw-icon {
   max-width: 20px;
   width: 0;
+  vertical-align: middle;
 }
 
 .head-checkbox {
@@ -41,10 +38,12 @@ img.paw-icon {
 .head-nav-links {
   display: flex;
   justify-content: space-between;
+  justify-self: center;
   background-color: var(--mid-background);
   border-radius: 1rem;
-  padding: 1rem;
-  margin-bottom: 0;
+  padding: 0.5rem;
+  margin: 0;
+  align-items: center;
 }
 
 .head-nav-link {
@@ -58,8 +57,14 @@ img.paw-icon {
 .head-checkbox,
 .home a {
   white-space: nowrap;
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 1rem;
   border-radius: 0.5rem;
+  vertical-align: middle;
+}
+
+.head-checkbox {
+  display: block;
+  align-items: center;
 }
 
 .head-dropdown {
@@ -104,7 +109,8 @@ img.paw-icon {
     grid-template:
       "a a"
       "b c";
-    padding: 4% 5% 0;
+    padding: 5% 5% 0;
+    row-gap: 14px;
   }
 
   .header-logo-link {
@@ -115,6 +121,10 @@ img.paw-icon {
   img.header-logo-img {
     max-height: 50px;
     justify-self: center;
+  }
+
+  a.cart-icon {
+    padding-left: 10px;
   }
 }
 
