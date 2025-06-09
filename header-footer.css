@@ -25,7 +25,8 @@ img.header-logo-img {
 }
 
 img.cart-icon-img {
-  max-height: 50px;
+  max-height: 36px;
+  padding-right: 4%;
 }
 
 img.paw-icon {
