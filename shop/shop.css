@@ -6,3 +6,53 @@
 .shop img.paw-icon {
     width: auto;
 }
+
+h2 {
+    font-size: 20px;
+}
+
+.browse-tools {
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0;
+    text-decoration: underline;
+}
+
+.product-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card a {
+    display: block;
+    width: 100%;
+}
+
+.product-card img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+    .product-card img {
+        width: 100%;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+}

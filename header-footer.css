@@ -103,7 +103,7 @@ img.paw-icon {
   max-height: max-content;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   header {
     display: grid;
     grid-template:
