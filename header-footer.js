@@ -9,7 +9,7 @@ class Header extends HTMLElement {
 
     this.innerHTML = `
         <header>
-                <a href="${base}index.html" class="header-logo-link">
+                <a href="${base}" class="header-logo-link">
                     <img src="${base}images/farmhouse-full-logo.png" 
                         alt="Farmhouse Logo"
                         class="header-logo-img">
@@ -17,7 +17,7 @@ class Header extends HTMLElement {
                 <nav>
                     <ul class="head-nav-links">
                         <li class="head-nav-link home">
-                            <a href="${base}index.html">
+                            <a href="${base}">
                                 <img class="paw-icon" src="${base}images/paw-icon-blue.png">
                                 Home
                             </a>
