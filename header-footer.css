@@ -44,6 +44,7 @@ img.paw-icon {
   background-color: var(--mid-background);
   border-radius: 1rem;
   padding: 1rem;
+  margin-bottom: 0;
 }
 
 .head-nav-link {
@@ -103,7 +104,7 @@ img.paw-icon {
     grid-template:
       "a a"
       "b c";
-    padding: 4% 5%;
+    padding: 4% 5% 0;
   }
 
   .header-logo-link {
@@ -118,7 +119,10 @@ img.paw-icon {
 }
 
 footer {
-  background-color: var(--light-background);
+  background-color: var(--dark-contrast);
+  color: var(--light-background);
+  margin-top: 30px;
+  padding: 3% 5% 15% 5%;
 }
 
 .foot-nav-links {
@@ -131,9 +135,12 @@ footer {
   padding-left: 0;
 }
 
+.foot-links a {
+  color: var(--light-background);
+}
+
 .foot-nav-links li {
   list-style: none;
-  padding: 0 1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -141,5 +148,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
+    column-gap: 1rem;
+    padding-inline-start: 10px;
   }
+
+
+
 }
