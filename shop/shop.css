@@ -31,6 +31,7 @@ h2 {
 .product-card {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .product-card a {
@@ -44,12 +45,17 @@ h2 {
     object-fit: cover;
 }
 
+.price {
+    padding-bottom: 14px;
+}
+
 .add-to-cart {
-    margin-top: 12px;
+    margin-top: auto;
     padding: 8px;
     background-color: var(--light-contrast);
+    justify-self: end;
 
-    font-family: "Albert Sans"
+    font-family: "Albert Sans";
     border: 2px solid var(--dark-contrast);
     border-radius: 5px;
 }

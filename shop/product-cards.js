@@ -147,7 +147,7 @@ class ChickenFeet extends HTMLElement {
                         alt="Chicken Feet">
                 </a>
 
-                <h2>Chicken Feet</h2></a>
+                <a href=""><h2>Chicken Feet</h2></a>
                 <span class="price">$5.99</span>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
@@ -178,7 +178,7 @@ class LambCrumble extends HTMLElement {
 customElements.define('lamb-crumble', LambCrumble);
 
 
-class Sardines extends HTMLElement {
+class SardinesFish extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div class="product-card">
@@ -195,7 +195,7 @@ class Sardines extends HTMLElement {
     }
 }
 
-customElements.define('sardines', Sardines);
+customElements.define('sardines-fish', SardinesFish);
 
 
 class PeanutButterCookies extends HTMLElement {
