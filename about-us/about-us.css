@@ -6,3 +6,22 @@
 .about-us img.paw-icon {
     width: auto;
 }
+
+figure img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    object-fit: contain;
+}
+
+figcaption {
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    figure img {
+            width: 100%;
+    }
+}

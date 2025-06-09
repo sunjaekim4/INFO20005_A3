@@ -1,3 +1,7 @@
+.head-nav-link > a:hover {
+  text-decoration: none;
+}
+
 header {
   background-color: var(--light-background);
   display: grid;
@@ -128,6 +132,10 @@ img.paw-icon {
   }
 }
 
+header li, footer li {
+    list-style: none;
+}
+
 footer {
   background-color: var(--dark-contrast);
   color: var(--light-background);
@@ -149,10 +157,6 @@ footer {
 
 .foot-links a {
   color: var(--light-background);
-}
-
-.foot-nav-links li {
-  list-style: none;
 }
 
 @media only screen and (max-width: 768px) {
