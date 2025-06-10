@@ -1,3 +1,7 @@
+h1 {
+    font-size: 34px;
+}
+
 hr, cart-items hr {
     display: block;
     border-top: 2px solid var(--mid-background);
