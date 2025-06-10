@@ -11,10 +11,13 @@ h2 {
     margin-top: 1rem;
 }
 
+.disabled-link:hover {
+    text-decoration: none;
+}
+
 .product-card {
     display: grid;
     grid-template: 
-        "1fr 1fr"
         "1fr 1fr";
     row-gap: 30px;
     column-gap: 50px;
@@ -25,13 +28,24 @@ h2 {
 }
 
 .product-labels {
-    padding-right: 30px;
+    padding-right: 20%;
 }
 
 .product-card img {
     width: 300px;
     aspect-ratio: 3/4;
     object-fit: cover;
+}
+
+.add-to-cart {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: var(--light-contrast);
+    width: 100%;
+
+    font-family: "Albert Sans";
+    border: 2px solid var(--dark-contrast);
+    border-radius: 6px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -50,5 +64,6 @@ h2 {
     .product-labels {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
 }
