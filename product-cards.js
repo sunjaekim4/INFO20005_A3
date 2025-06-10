@@ -176,7 +176,7 @@ class ChookBugs extends HTMLElement {
                         alt="Chook Bugs - Black Soldier Fly Larvae">
                 </a>
                 <div class="product-labels">
-                    <a class="cover-name-link" href="../products/chook-bugs.html"><h2>Chook Bugs - Black Soldier Fly Larvae</h2></a>
+                    <a class="cover-name-link" href="../products/chook-bugs.html"><h2>Chook Bugs</h2></a>
                     <span class="price">$14.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
