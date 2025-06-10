@@ -111,15 +111,20 @@ img.paw-icon {
   header {
     display: grid;
     grid-template:
-      "a a"
-      "b c";
+      "logo logo"
+      "nav cart";
     padding: 5% 5% 0;
     row-gap: 14px;
   }
 
   .header-logo-link {
-    grid-column: 1 / -1;
+    grid-area: logo;
     justify-self: center;
+    padding-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   img.header-logo-img {
