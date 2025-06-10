@@ -9,7 +9,7 @@ class AppleOatCookies extends HTMLElement {
 
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/apple-and-oat-cookies.html"><h2>Apple & Oat Cookies</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$12.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -30,7 +30,7 @@ class AppleCrunch extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/apple-crunch.html"><h2>Apple Crunch</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$13.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -51,7 +51,7 @@ class BdayBone extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/bday-bone.html"><h2>B'Day Bone</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$8.50</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -72,7 +72,7 @@ class BeefBites extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/beef-bites.html"><h2>Beef Bites</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$13.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -93,7 +93,7 @@ class BeefLiver extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/beef-liver.html"><h2>Beef Liver</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$14.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -114,7 +114,7 @@ class BeefTendons extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/beef-tendons.html"><h2>Beef Tendons</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$5.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -135,7 +135,7 @@ class CarrotCrunch extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/carrot-crunch.html"><h2>Carrot Crunch</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$13.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -156,7 +156,7 @@ class ChickenFeet extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/chicken-feet.html"><h2>Chicken Feet</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$10.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -177,7 +177,7 @@ class ChookBugs extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/chook-bugs.html"><h2>Chook Bugs - Black Soldier Fly Larvae</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$14.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -198,7 +198,7 @@ class LambCrumble extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/lamb-crumble.html"><h2>Lamb Crumble</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$14.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -219,7 +219,7 @@ class SardinesFish extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/sardines-fish.html"><h2>Sardines</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$15.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -240,7 +240,7 @@ class PeanutButterCookies extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/peanut-butter-cookies.html"><h2>Peanut Butter Cookies</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$12.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
@@ -261,7 +261,7 @@ class VeggieCrunch extends HTMLElement {
                 </a>
                 <div class="product-labels">
                     <a class="cover-name-link" href="../products/veggie-crunch.html"><h2>Veggie Crunch</h2></a>
-                    <span class="price">$5.99</span>
+                    <span class="price">$13.00</span>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
