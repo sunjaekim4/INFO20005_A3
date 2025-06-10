@@ -6,3 +6,49 @@
 .shop img.paw-icon {
     width: auto;
 }
+
+h2 {
+    margin-top: 1rem;
+}
+
+.product-card {
+    display: grid;
+    grid-template: 
+        "1fr 1fr"
+        "1fr 1fr";
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.cover-img-link {
+    justify-self: end;
+}
+
+.product-labels {
+    padding-right: 30px;
+}
+
+.product-card img {
+    width: 300px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-card {
+        display: grid;
+        grid-template: 
+            "1fr"
+            "1fr";
+        row-gap: 20px;
+    }
+    
+    .product-card img {
+        width: 100%;
+    }
+
+    .product-labels {
+        display: flex;
+        flex-direction: column;
+    }
+}

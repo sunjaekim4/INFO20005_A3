@@ -45,6 +45,12 @@ h2 {
     object-fit: cover;
 }
 
+.product-labels {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 .price {
     padding-bottom: 14px;
 }
