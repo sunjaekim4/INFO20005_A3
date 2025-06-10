@@ -2,6 +2,8 @@ class CartItems extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div class="cart-items">
+            <hr>
+            
             <div class="cart-item beef-bites">
                 <img src="../images/product-images/beef-bites.webp" 
                 alt="Beef Bites" class="product-image">
@@ -19,6 +21,8 @@ class CartItems extends HTMLElement {
                 </span>
                 <img src="../images/delete-icon.png" alt="Delete Icon" class="delete-item">
             </div>
+
+            <hr>
 
             <div class="cart-item chicken-feet">
                 <img src="../images/product-images/chicken-feet.webp" 
@@ -38,6 +42,8 @@ class CartItems extends HTMLElement {
                 <img src="../images/delete-icon.png" alt="Delete Icon" class="delete-item">
             </div>
 
+            <hr>
+
             <div class="cart-item bday-bone">
                 <img src="../images/product-images/bday-bone.webp" 
                 alt="B'Day Bone" class="product-image">
@@ -55,7 +61,10 @@ class CartItems extends HTMLElement {
                 </span>
                 <img src="../images/delete-icon.png" alt="Delete Icon" class="delete-item">
             </div>
+            <hr>
         </div>
+
+
 
         <div class="cart-summary">
             <div class="summary-line">
@@ -65,7 +74,7 @@ class CartItems extends HTMLElement {
                 <b>Total Price:</b> <span class="total-price">$44.50</span>
             </div>
         </div>
-        `
+        `;
     }
 }
 
