@@ -5,6 +5,9 @@ class Header extends HTMLElement {
              window.location.pathname.includes('/products/') || 
              window.location.pathname.includes('/checkout/')
              ? '../' : './';
+    
+    const cart = window.location.pathname.includes('/checkout/') 
+            ? '-white' : '';
 
     this.innerHTML = `
         <header>
@@ -60,7 +63,7 @@ class Header extends HTMLElement {
                 </nav>
 
                 <a href="${base}/checkout/cart.html" class="cart-icon">
-                    <img src="${base}images/cart.png" 
+                    <img src="${base}images/cart${cart}.png" 
                         alt="Cart Icon"
                         class="cart-icon-img">
                 </a>
