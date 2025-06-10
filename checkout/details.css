@@ -71,3 +71,8 @@ input::placeholder {
     width: 30vw;
     margin-left: 1rem;
 }
+
+.checkout-nav button:hover {
+    background-color: var(--emphasis-color);
+    transition: background-color 200ms ease;
+}
