@@ -1,11 +1,9 @@
-
-
 class Header extends HTMLElement {
   connectedCallback() {
     const base = window.location.pathname.includes('/shop/') || 
              window.location.pathname.includes('/about-us/') || 
              window.location.pathname.includes('/products/') || 
-             window.location.pathname.includes('/helpful-links/')
+             window.location.pathname.includes('/checkout/')
              ? '../' : './';
 
     this.innerHTML = `
@@ -116,10 +114,10 @@ class Footer extends HTMLElement {
                 <li>
                     <h2 class="foot-heading">Helpful Links</h2>
                     <ul class="foot-links">
-                        <li><a href="${base}helpful-links/contact-us.html">Contact Us</a></li>
-                        <li><a href="${base}helpful-links/shipping-returns.html">Shipping & Returns</a></li>
-                        <li><a href="${base}helpful-links/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="${base}helpful-links/terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Shipping & Returns</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
                     </ul>
                 </li>
 
