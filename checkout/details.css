@@ -1,0 +1,73 @@
+h1 {
+    justify-self: center;
+}
+
+button {
+    font-family: "Albert Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quantity-controls {
+    width: 30px;
+    justify-content: center;
+    background-color: var(--light-background);
+    border: none;
+}
+
+.quantity-controls button, .delete-item {
+    display: none;
+}
+
+main label {
+    display: none;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 90%;
+    padding: 0.7rem;
+    border-radius: 10px;
+    margin: 0.3rem auto;
+
+    border: 2px solid var(--mid-background);
+}
+
+input::placeholder {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.checkout-details {
+    margin-bottom: 2rem;
+}
+
+.checkout-details div + div {
+    margin-top: 2rem;
+}
+
+.checkout-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-nav button {
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+
+.back-to-cart-button {
+    background-color: var(--light-contrast);
+}
+
+.pay-now-button {
+    background-color: var(--dark-contrast);
+    color: var(--light-contrast);
+
+    width: 30vw;
+    margin-left: 1rem;
+}

@@ -7,9 +7,12 @@
 
     <script type="module" src="../header-footer.js"></script>
     <script type="module" src="../product-cards.js"></script>
+    <script type="module" src="cart-items.js"></script>
 
     <link rel="stylesheet" href="../header-footer.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="cart-items.css">
+    <link rel="stylesheet" href="details.css">
 
 </head>
 <body>
@@ -17,68 +20,60 @@
 
     <main>
         <h1>Your Details</h1>
-        <label for="email">Email</label>
-        <input 
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Email"/>
 
-        <div class="shipping-info">
-            <label for="first-name">First Name</label>
-            <input 
-                type="text"
-                id="first-name"
-                name="first-name"
-                placeholder="First Name"/>
+        <div class="checkout-details">
+            <div class="contact-info">
+                <label for="email">Email</label>
+                <input 
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Email"/>
+            </div>
 
-            <label for="last-name">Last Name</label>
-            <input 
-                type="text"
-                id="last-name"
-                name="last-name"
-                placeholder="Last Name"/>
+            <div class="shipping-info">
+                <label for="first-name">First Name</label>
+                <input 
+                    type="text"
+                    id="first-name"
+                    name="first-name"
+                    placeholder="First Name"/>
 
-            <label for="street-address">Street Address</label>
-            <input 
-                type="text"
-                id="street-address"
-                name="street-address"
-                placeholder="Street Address"/>
+                <label for="last-name">Last Name</label>
+                <input 
+                    type="text"
+                    id="last-name"
+                    name="last-name"
+                    placeholder="Last Name"/>
+
+                <label for="street-address">Street Address</label>
+                <input 
+                    type="text"
+                    id="street-address"
+                    name="street-address"
+                    placeholder="Street Address"/>
+            </div>
+
+            <div class="payment-info">
+                <label for="card-number">Card Number</label>
+                <input 
+                    type="number"
+                    id="card-number"
+                    name="card-number"
+                    placeholder="Card Number"/>
+
+                <label for="expiry-date">Expiry Date</label>
+                <input 
+                    type="month"
+                    id="expiry-date"
+                    name="expiry-date"
+                    placeholder="Expiry Date"/>
+            </div>
         </div>
-
-        <label for="card">Card</label>
-        <input 
-            type="number"
-            id="card"
-            name="card"
-            placeholder="Card"/>
-
-        <div class="cart-items">
             
-        <div class="cart-items">
-            <div class="cart-item">
-                <beef-bites class="cart-product"></beef-bites>
-                <h3 class="quantity">2</p>
-            </div>
+        <cart-items></cart-items>
 
-            <div class="cart-item">
-                <chicken-feet class="cart-product"></chicken-feet>
-                <h3 class="quantity">1</p>
-            </div>
-
-            <div class="cart-item">
-                <bday-bone class="cart-product"></bday-bone>
-                <h3 class="quantity">1</p>
-            </div>
-        </div> 
-
-        <div class="cart-summary">
-            <p>Total Items: <span class="total-items">4</span></p>
-            <p>Total Price: <span class="total-price">$44.50</span></p>
-        </div>
-
-        <div class="checkout-nav"></div>
+        <div class="checkout-nav">
             <a href="cart.html">
                 <button class="back-to-cart-button">Back to Cart</button>
             </a>
