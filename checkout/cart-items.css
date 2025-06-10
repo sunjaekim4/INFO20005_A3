@@ -59,6 +59,7 @@ main {
 .delete-item {
     grid-area: delete;
     justify-self: end;
+    width: 20px;
 }
 
 .quantity-controls {

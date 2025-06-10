@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script type="module" src="header-footer.js"></script>
-    <script type="module" src="cart.js"></script>
-
-    <link rel="stylesheet" href="header-footer.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cart.css">
-
-</head>
-<body>
-    <header-component></header-component>    
-
-    <main>
-        <div class="heading">
-            <img src="images/cart.png" alt="Cart Icon">
-            <h1>Your Cart</h1>
-        </div>
-
-        <div class="cart-items">
+class CartItems extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div class="cart-items">
             <div class="cart-item beef-bites">
                 <img src="../images/product-images/beef-bites.webp" 
                 alt="Beef Bites" class="product-image">
@@ -38,7 +17,7 @@
                     <p class="quantity">2</p>
                     <button class="add-item">+</button>
                 </span>
-                <img src="images/delete-icon.png" alt="Delete Icon" class="delete-item">
+                <img src="../images/delete-icon.png" alt="Delete Icon" class="delete-item">
             </div>
 
             <div class="cart-item chicken-feet">
@@ -56,7 +35,7 @@
                     <p class="quantity">1</p>
                     <button class="add-item">+</button>
                 </span>
-                <img src="images/delete-icon.png" alt="Delete Icon" class="delete-item">
+                <img src="../images/delete-icon.png" alt="Delete Icon" class="delete-item">
             </div>
 
             <div class="cart-item bday-bone">
@@ -74,7 +53,7 @@
                     <p class="quantity">1</p>
                     <button class="add-item">+</button>
                 </span>
-                <img src="images/delete-icon.png" alt="Delete Icon" class="delete-item">
+                <img src="../images/delete-icon.png" alt="Delete Icon" class="delete-item">
             </div>
         </div>
 
@@ -86,12 +65,8 @@
                 <b>Total Price:</b> <span class="total-price">$44.50</span>
             </div>
         </div>
+        `
+    }
+}
 
-        <a class="checkout-link" href="checkout/details.html">
-            <button class="checkout-button">Checkout</button>
-        </a>
-    </main>
-
-    <footer-component></footer-component>
-</body>
-</html>
+customElements.define('cart-items', CartItems);

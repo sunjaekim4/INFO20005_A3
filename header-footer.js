@@ -59,7 +59,7 @@ class Header extends HTMLElement {
                     </ul>
                 </nav>
 
-                <a href="${base}cart.html" class="cart-icon">
+                <a href="${base}/checkout/cart.html" class="cart-icon">
                     <img src="${base}images/cart.png" 
                         alt="Cart Icon"
                         class="cart-icon-img">
