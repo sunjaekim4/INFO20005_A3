@@ -16,7 +16,34 @@
     <header-component></header-component>    
 
     <main>
-        
+        <div class="confirm-heading">
+            <p class="order-number">ORDER NO. 000001</p>
+            <h1>Thank you for your order!</h1>
+            <img src="../images/paw-icon-blue-300px.png" alt="Paw Icon" class="paw-img-back">
+        </div>
+
+        <div class="cart-items">
+            <h2 class="order-summary-heading">Order Summary:</h2>
+            <div class="cart-item">
+                <beef-bites class="cart-product"></beef-bites>
+                <h3 class="quantity">2</p>
+            </div>
+
+            <div class="cart-item">
+                <chicken-feet class="cart-product"></chicken-feet>
+                <h3 class="quantity">1</p>
+            </div>
+
+            <div class="cart-item">
+                <bday-bone class="cart-product"></bday-bone>
+                <h3 class="quantity">1</p>
+            </div>
+        </div>
+
+        <button class="checkout-done-button" 
+        onclick="location.href='../'">
+            Done
+        </button>
     </main>
 
     <footer-component></footer-component>

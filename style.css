@@ -32,6 +32,12 @@ body {
     font-family: "Albert Sans", Tahoma, Verdana, sans-serif;
 }
 
+h1 {
+    font-family: "Albert Sans";
+    font-weight: 600;
+    font-size: 40px;
+}
+
 h2 {
     font-family: "Josefin Sans";
     font-weight: 500;
