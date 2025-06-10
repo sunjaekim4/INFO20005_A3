@@ -18,7 +18,7 @@ h2 {
 .product-card {
     display: grid;
     grid-template: 
-        "1fr 1fr";
+        "img info";
     row-gap: 30px;
     column-gap: 50px;
 }
@@ -52,8 +52,8 @@ h2 {
     .product-card {
         display: grid;
         grid-template: 
-            "1fr"
-            "1fr";
+            "img"
+            "info";
         row-gap: 20px;
     }
     
