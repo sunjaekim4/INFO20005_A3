@@ -7,3 +7,76 @@
 .home img.paw-icon {
     width: auto;
 }
+
+h1 {
+    font-size: 34px;
+    margin-top: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}   
+
+.hero-image {
+    max-width: 40vw;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.hero-text-buttons {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+}
+
+.hero button {
+    background-color: var(--light-contrast);
+    padding: 10px 16px;
+    border: 2px solid var(--dark-contrast);
+    border-radius: 8px;
+    width: 18vw;
+
+    font-family: "Albert Sans";
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-wrap: wrap;
+}
+
+.hero button:hover {
+    background-color: var(--mid-background);
+    transition: background-color 200ms ease;
+}
+
+.hero button + button {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .hero button {
+        width: 80vw;
+    }
+
+    .hero button + button {
+        margin-left: 0;
+        margin-top:10px;
+    }
+}
